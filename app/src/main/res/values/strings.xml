@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AiO</string>
+    <string name="message">Mensaje:</string>
+    <string name="number">Numero:</string>
+    <string name="label_call">Call</string>
+    <string name="label_camera">Camera</string>
+    <string name="label_sms">SMS</string>
+    <string name="send">Enviar</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+</resources>

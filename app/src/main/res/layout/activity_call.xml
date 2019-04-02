@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dip">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtNumero"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:enabled="false"
+            android:textSize="@dimen/txtCallNumber"
+            android:textAlignment="center"
+            android:textColor="@color/text"/>
+
+        <Button
+            android:id="@+id/btnBackspace"
+            android:layout_width="@dimen/txtCallNumber"
+            android:layout_height="@dimen/txtCallNumber"
+            android:background="@drawable/backspace"
+            android:padding="20dp"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="@string/one"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:textSize="@dimen/txtCallNumber"
+                android:background="@drawable/button_rounded"/>
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="@string/two"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:textSize="@dimen/txtCallNumber"
+                android:background="@drawable/button_rounded"/>
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="@string/three"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:textSize="@dimen/txtCallNumber"
+                android:background="@drawable/button_rounded"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="@string/four"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:textSize="@dimen/txtCallNumber"
+                android:background="@drawable/button_rounded"/>
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="@string/five"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:textSize="@dimen/txtCallNumber"
+                android:background="@drawable/button_rounded"/>
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="@string/six"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:textSize="@dimen/txtCallNumber"
+                android:background="@drawable/button_rounded"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="@string/seven"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:textSize="@dimen/txtCallNumber"
+                android:background="@drawable/button_rounded"/>
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="@string/eight"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:textSize="@dimen/txtCallNumber"
+                android:background="@drawable/button_rounded"/>
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="@string/nine"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:textSize="@dimen/txtCallNumber"
+                android:background="@drawable/button_rounded"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/btn0"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="@string/zero"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:textSize="@dimen/txtCallNumber"
+                android:background="@drawable/button_rounded"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/btnLlamar"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_margin="20dp"
+                android:background="@drawable/call_icon" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
